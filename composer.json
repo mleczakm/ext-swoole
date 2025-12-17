@@ -5,7 +5,7 @@
     "type": "metapackage",
     "license": "Apache-2.0",
     "require": {
-        "ext-swoole": "self.version"
+        "ext-swoole": ">=self.version"
     },
     "replace": {
         "upscale/ext-openswoole": "*"
